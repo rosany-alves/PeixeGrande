@@ -1,0 +1,109 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  }
+  :root{
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza: #e8e6e6;
+}
+  #pagina{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+  }
+  #logo{
+    width: 25%;
+    height: 250px;
+    float: left;
+    margin: 0px;
+  }
+  #logo1{
+    width: 75%;
+    height: 250px;
+    float: right;
+    margin: 0px;
+    background-size: cover;
+  }
+  header{ 
+    width: 80%;
+    height: 250px;
+    text-align: center;
+    line-height: 80px;
+    color: var(--branco);
+    margin: 0px auto;
+  }
+  nav{ 
+    width: 80%;
+    height: 30px;
+    background-color: var(--cinza);
+    text-align: right; /* Alinhar os textos ao centro */
+    line-height: 30px;
+    margin: 0px auto;
+  }
+  .linkNav{
+    color: black;
+    text-decoration: none;
+    margin: 0px 15px; /* Adiciona espaço entre os links */
+  }
+  main{ 
+    width: 80%;
+    height: auto;
+    background-color: var(--cinza);
+    margin: 0px auto;
+    text-align: left; /* Alinhar os textos ao centro */
+    line-height: 30px;
+  }
+  #superior{
+    font-size: 12px;
+    padding: 0px 0px 0px 30px;
+  }
+  #lateralEsquerda{
+    width: 60%;
+    height: 30px;
+    background-color: var(--preto);
+    font-size: 14px;
+    float: left;
+    margin: 0px auto;
+  }
+  #lateralDireita{
+    width: 40%;
+    height: 30px;
+    background-color: var(--preto);
+    font-size: 14px;
+    float: right;
+  }
+  h5{
+    color: var(--branco);
+  }
+  #textoEsquerda{
+    width: 60%;
+    height: 750px;
+    background-color: var(--cinza);
+    float: left;
+    text-align: 5px;
+  }
+  #textoDireita{
+    width: 40%;
+    height: 750px;
+    background-color: var(--cinza);
+    float: right;
+  }
+  #textoEmbaixo{
+    width: 80%;
+    background-color: var(--branco);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+    background-color:var(--preto);
+    color: var(--branco);
+    text-align: center;
+    line-height: 80px;
+    float: center; 
+  }
