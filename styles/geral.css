@@ -12,6 +12,10 @@
     height: auto;
     margin: 0px auto;
   }
+  p,h1,h2,h5{
+    margin-left: 18px;
+    padding: 10px 0px;
+  }
   #logo{
     width: 25%;
     height: 250px;
@@ -51,11 +55,13 @@
     height: auto;
     background-color: var(--cinza);
     margin: 0px auto;
+    justify-content: end;
+    padding: 10px 0px;
     text-align: left; /* Alinhar os textos ao centro */
     line-height: 30px;
   }
   #superior{
-    font-size: 12px;
+    font-size: 20px;
     padding: 0px 0px 0px 30px;
   }
   #lateralEsquerda{
@@ -64,6 +70,7 @@
     background-color: var(--preto);
     font-size: 14px;
     float: left;
+    padding: 10px 0px;
     margin: 0px auto;
   }
   #lateralDireita{
@@ -71,6 +78,7 @@
     height: 30px;
     background-color: var(--preto);
     font-size: 14px;
+    padding: 10px 0px;
     float: right;
   }
   h5{
@@ -96,14 +104,14 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-left: 18px;
   }
   footer{
     width: 80%;
-    height: auto;
+    height: 60%;
     margin: 0px auto;
+    text-align: center;
+    bottom: 0;
     background-color:var(--preto);
     color: var(--branco);
-    text-align: center;
-    line-height: 80px;
-    float: center; 
   }
